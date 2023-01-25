@@ -1,1 +1,124 @@
 /* Hoja de estilos */
+/* Main Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* NAVBAR------------------------------------------- */
+.navbar{
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+}
+.navbarIcon {
+  width: 230px;
+}
+.listNavbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 35px;
+  gap: 15px;
+}
+.listNavbar .sectionNavbar a{
+  font-size: 1rem;
+  color: white;
+}
+.listNavbar .sectionNavbar{
+    position: relative;
+    padding: 0;
+}
+.listNavbar .sectionNavbar a::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: rgb(156, 150, 150);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in-out;
+}
+.listNavbar .sectionNavbar a:hover::after{
+    transform-origin: bottom right;
+    transform: scaleX(1);
+}
+.listNavbar .sectionNavbar a:hover{
+    color: rgb(156, 150, 150);
+}
+/* MAIN SECTION */
+.hero {
+  padding-top: 55px;
+  background-color: #e2E3DD;
+}
+.containerHero{
+    height: 475px;
+}
+.containerHero .imagenPortada{
+    width: 100%;
+}
+.containerHero .titulo{
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    animation:fade 1.5s ease forwards, slide 1s ease forwards;
+    
+}
+.containerHero span a{
+    color: rgb(105, 104, 80);
+}
+.containerHero span{
+    position: relative;
+    left: 75%;
+    bottom: 100px;
+    animation:fade 2s ease forwards;
+    padding: 10px;
+    border: 1px solid rgb(165, 153, 153);
+    border-radius: 8px;
+    transition: all .5s; 
+    transition: .5s,rgb(165, 153, 153) .10s;
+}
+.containerHero span:hover{
+    background-color: #E2E3DD;
+    box-shadow: 0px 8px 8px 0 #000;
+    padding: 10px 13px;
+    transform: scale(1.1);
+}
+
+/* Animacion Slide h1 */
+@keyframes slide {
+    from {
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
