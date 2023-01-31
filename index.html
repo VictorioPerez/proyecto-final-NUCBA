@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="styles/style.css" />
     <!-- FAVICON -->
     <link rel="icon" href="images/favicon1.png" type="image/x-icon" />
+    <!-- BOOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <title>ScentSational</title>
   </head>
   <body>
@@ -20,23 +25,26 @@
           class="navbarIcon"
         />
         <ul class="listNavbar">
-          <li class="sectionNavbar">
+          <li class="liNavbar">
             <a href="#"> Inicio</a>
           </li>
-          <li class="sectionNavbar">
-            <a href="#"> Productos</a>
+          <li class="liNavbar">
+            <a href="#sectionP"> Productos</a>
           </li>
-          <li class="sectionNavbar">
-            <a href="#"> Quienes somos</a>
+          <li class="liNavbar">
+            <a href="#sectionFAQ">FAQ</a>
           </li>
-          <li class="sectionNavbar">
+          <li class="liNavbar">
             <a href="#"> Contacto</a>
           </li>
-          <li class="sectionNavbar">
+          <li class="liNavbar">
             <a href="#"> Iniciar Sesion</a>
           </li>
-          <li class="sectionNavbar">
+          <li class="liNavbar">
             <a href="#"> Registrarse</a>
+          </li>
+          <li class="liNavbar">
+            <img src="images/cart.png" alt="carrito" class="cartImg" />
           </li>
         </ul>
       </nav>
@@ -46,14 +54,254 @@
       <section class="hero">
         <div class="containerHero">
           <h1 class="titulo">El arte de perfumar tu vida</h1>
-          <img src="images/imagen-hero.jpg" alt="cartel de perfume" class="imagenPortada"/>
+          <img
+            src="images/imagen-hero.jpg"
+            alt="cartel de perfume"
+            class="imagenPortada"
+          />
           <span>
             <a href="#">Descubre</a>
           </span>
         </div>
       </section>
-      <section class="sectionProductos">
-        
+      <!-- SECTION PRODUCTOS -->
+      <section class="sectionProductos" id="sectionP">
+        <h2 class="titleProductos">Productos</h2>
+        <div class="container">
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd1.png"
+              alt="Perfume versace"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Versace</p>
+              <h4>Eros Flame</h4>
+              <span> <strong>$21.300</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd2.png"
+              alt="Perfume dior"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Dior</p>
+              <h4>Sauvage</h4>
+              <span> <strong>$73.800</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd3.png"
+              alt="Perfume dior"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Dior</p>
+              <h4>Jadore Infinissime</h4>
+              <span> <strong>$36.200</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd4.png"
+              alt="Perfume paco rabanne"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Paco Rabanne</p>
+              <h4>Invictus</h4>
+              <span><strong>$27.200</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd5.png"
+              alt="Perfume Yves Saint Laurent"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Yves Saint Laurent</p>
+              <h4>Y for Men</h4>
+              <span><strong>$29.700</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd6.png"
+              alt="Perfume Yves Saint Laurent"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Paco Rabanne</p>
+              <h4>Lady Million Fabulous</h4>
+              <span><strong>$34.000</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd7.png"
+              alt="Perfume Rochas"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Rochas</p>
+              <h4>Byzance EDP</h4>
+              <span><strong>$31.600</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd8.png"
+              alt="Perfume Dolce & Gabbana"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Dolce & Gabbana</p>
+              <h4>K</h4>
+              <span><strong>$26.490</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd9.png"
+              alt="Perfume Lancome"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Lancome</p>
+              <h4>La Vie Est Belle</h4>
+              <span><strong>$41.900</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd10.png"
+              alt="Perfume Jean Paul Gaultier"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Jean Paul Gaultier</p>
+              <h4>Le Male</h4>
+              <span><strong>$26.000</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd11.png"
+              alt="Perfume Ralph Lauren"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Ralph Lauren</p>
+              <h4>Polo Blue</h4>
+              <span><strong>$31.900</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+          <div class="containerProduct">
+            <img
+              src="images/perfumeProd12.png"
+              alt="Perfume Lacoste"
+              class="imgProduct"
+            />
+            <div class="containerInfoProduct">
+              <p>Lacoste</p>
+              <h4>Eau de Lacoste</h4>
+              <span><strong>$13.510</strong></span>
+              <button class="buttonAgregar">Agregar al carro</button>
+            </div>
+          </div>
+          <!---------------------------------------------------------------------------->
+        </div>
+      </section>
+      <section class="sectionFAQ" id="sectionFAQ">
+        <h2 class="titleFAQ">Preguntas frecuentes</h2>
+        <div class="containerFAQ">
+          <div class="containerPreguntas">
+            <details>
+              <summary>
+                ¿Cómo puedo encontrar el perfume adecuado para mí?
+              </summary>
+              <p>
+                Ofrecemos una variedad de opciones de perfumes para hombres y
+                mujeres, así como una sección de recomendaciones de expertos y
+                una búsqueda avanzada para ayudarlo a encontrar el perfume
+                perfecto para usted.
+              </p>
+            </details>
+            <details>
+              <summary>¿Cuáles son los plazos de entrega?</summary>
+              <p>
+                Los plazos de entrega varían según la ubicación, pero en
+                general, los pedidos se entregan en un plazo de 3-5 días
+                laborables. Ofrecemos un seguimiento de envío para que pueda
+                seguir el progreso de su pedido.
+              </p>
+            </details>
+            <details>
+              <summary>¿Cómo puedo pagar por mi pedido?</summary>
+              <p>
+                Aceptamos pagos mediante tarjeta de crédito, débito, PayPal,
+                MercadoPago, transferencias. En caso de querer pagar en cuotas,
+                el precio puede verse variado dependiendo de la forma de pago.
+              </p>
+            </details>
+            <details>
+              <summary>¿Ofrecen devoluciones o cambios?</summary>
+              <p>
+                Sí, ofrecemos devoluciones y cambios dentro de los primeros 14
+                días después de recibir el producto. Por favor, asegúrese de que
+                el producto esté en su embalaje original y no se haya utilizado.
+              </p>
+            </details>
+            <details>
+              <summary>¿Ofrecen envío internacional?</summary>
+              <p>
+                Sí, ofrecemos envío internacional a una gran variedad de países,
+                con tarifas y plazos de entrega variables dependiendo de la
+                ubicacion en la que usted se encuentre. Pedidos dentro del pais
+                no tienen costo.
+              </p>
+            </details>
+            <details>
+              <summary>¿Cómo puedo contactar al servicio al cliente?</summary>
+              <p>
+                Puede contactar con nuestro servicio al cliente a través de
+                nuestro formulario de contacto en la página, por correo
+                electrónico o por teléfono. Estaremos encantados de ayudarlo con
+                cualquier pregunta o inquietud que pueda tener.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="sectionContact">
+        <h2 class="titleContact">Contacto</h2>
       </section>
     </main>
   </body>
