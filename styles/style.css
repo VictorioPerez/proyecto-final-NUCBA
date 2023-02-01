@@ -18,7 +18,7 @@ li {
 html {
   scroll-behavior: smooth;
 }
-section{
+section {
   background-color: #e2e3dd;
 }
 
@@ -69,7 +69,7 @@ section{
 .listNavbar .liNavbar a:hover {
   color: rgb(156, 150, 150);
 }
-.listNavbar .liNavbar .cartImg{
+.listNavbar .liNavbar .cartImg {
   width: 30px;
   margin-left: 20px;
 }
@@ -89,8 +89,12 @@ section{
   padding: 20px;
   opacity: 0;
   animation: fade 1.5s ease forwards, slide 1s ease forwards;
-  background: rgb(226,227,221);
-  background: linear-gradient(0deg, rgba(226,227,221,1) 0%, rgba(228,229,223,1) 100%);
+  background: rgb(226, 227, 221);
+  background: linear-gradient(
+    0deg,
+    rgba(226, 227, 221, 1) 0%,
+    rgba(228, 229, 223, 1) 100%
+  );
 }
 .containerHero span a {
   color: rgb(105, 104, 80);
@@ -139,7 +143,7 @@ section{
   padding: 20px 0px;
   position: relative;
 }
-.container{
+.container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -176,55 +180,55 @@ section{
   border-radius: 20px;
 }
 /* BORDER - BOX-SHADOW PARA CADA CARD */
-.containerProduct:nth-child(1){
+.containerProduct:nth-child(1) {
   box-shadow: 0px 0px 15px 1px #90050e;
   border: 1px solid #90050e;
 }
-.containerProduct:nth-child(2){
-  box-shadow: 0px 0px 15px 1px #002A49;
-  border: 1px solid #002A49;
+.containerProduct:nth-child(2) {
+  box-shadow: 0px 0px 15px 1px #002a49;
+  border: 1px solid #002a49;
 }
-.containerProduct:nth-child(3){
-  box-shadow: 0px 0px 15px 1px #D59946;
-  border: 1px solid #D59946;
+.containerProduct:nth-child(3) {
+  box-shadow: 0px 0px 15px 1px #d59946;
+  border: 1px solid #d59946;
 }
-.containerProduct:nth-child(4){
+.containerProduct:nth-child(4) {
   box-shadow: 0px 0px 15px 1px #636361;
-  border: 1px solid #BCB1AE;
+  border: 1px solid #bcb1ae;
 }
-.containerProduct:nth-child(5){
-  box-shadow: 0px 0px 15px 1px #9AA8C1;
-  border: 1px solid #9AA8C1;
+.containerProduct:nth-child(5) {
+  box-shadow: 0px 0px 15px 1px #9aa8c1;
+  border: 1px solid #9aa8c1;
 }
-.containerProduct:nth-child(6){
-  box-shadow: 0px 0px 15px 1px #F3DA76;
+.containerProduct:nth-child(6) {
+  box-shadow: 0px 0px 15px 1px #f3da76;
   border: 1px solid #b19e54;
 }
 
-.containerProduct:nth-child(7){
-  box-shadow: 0px 0px 15px 1px #023A77;
-  border: 1px solid #00A5F4;
+.containerProduct:nth-child(7) {
+  box-shadow: 0px 0px 15px 1px #023a77;
+  border: 1px solid #00a5f4;
 }
 
-.containerProduct:nth-child(8){
-  box-shadow: 0px 0px 15px 1px #7785A0;
+.containerProduct:nth-child(8) {
+  box-shadow: 0px 0px 15px 1px #7785a0;
   border: 1px solid #788499;
 }
-.containerProduct:nth-child(9){
+.containerProduct:nth-child(9) {
   box-shadow: 0px 0px 15px 1px #ddb9c8;
   border: 1px solid #9e8a92;
 }
-.containerProduct:nth-child(10){
-  box-shadow: 0px 0px 15px 1px #53B6B0;
-  border: 1px solid #6DB5B0;
+.containerProduct:nth-child(10) {
+  box-shadow: 0px 0px 15px 1px #53b6b0;
+  border: 1px solid #6db5b0;
 }
-.containerProduct:nth-child(11){
-  box-shadow: 0px 0px 15px 1px #064D94;
-  border: 1px solid #00A5F4;
+.containerProduct:nth-child(11) {
+  box-shadow: 0px 0px 15px 1px #064d94;
+  border: 1px solid #00a5f4;
 }
-.containerProduct:nth-child(12){
+.containerProduct:nth-child(12) {
   box-shadow: 0px 0px 15px 1px #701464;
-  border: 1px solid #D861C0;
+  border: 1px solid #d861c0;
 }
 /*----------------------------------------------------------------------*/
 .containerProduct .containerInfoProduct {
@@ -255,16 +259,16 @@ section{
   padding: 5px 20px;
   letter-spacing: 1px;
 }
-.buttonAgregar:active{
+.buttonAgregar:active {
   background-color: #000000;
   color: whitesmoke;
 }
 /* SECTION FAQ */
-.sectionFAQ{
+.sectionFAQ {
   padding-bottom: 20px;
 }
-.titleFAQ{
-text-align: center;
+.titleFAQ {
+  text-align: center;
 }
 .titleFAQ::after {
   content: "";
@@ -286,39 +290,38 @@ text-align: center;
   right: 10px;
   box-shadow: 1px 2px 14px 1px rgba(0, 0, 0, 0.61);
 }
-.containerFAQ{
+.containerFAQ {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 30px 0px;
   gap: 15px;
 }
-.containerFAQ .containerPreguntas{
+.containerFAQ .containerPreguntas {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 }
-details{
+details {
   border: 1px solid black;
   margin: 0px 15px;
   border-radius: 10px;
   padding: 10px;
 }
-details summary{
+details summary {
   cursor: pointer;
   width: 490px;
 }
-.containerPreguntas p{
+.containerPreguntas p {
   text-align: left;
   padding: 15px;
 }
-/* top: 2400px; */
 /* SECTION CONTACT */
-.sectionContact{
+.sectionContact {
   padding-bottom: 20px;
 }
-.titleContact{
+.titleContact {
   text-align: center;
 }
 .titleContact::after {
@@ -340,4 +343,60 @@ details summary{
   top: 2400px;
   right: 10px;
   box-shadow: 1px 2px 14px 1px rgba(0, 0, 0, 0.61);
+}
+.containerFormTotal{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: 0px 250px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.containerForm{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  padding: 10px;
+  gap: 10px;
+}
+.containerForm input{
+  border: none;
+  background-color: #E2E3DD;
+  border-bottom: 2px solid black;
+  width: 275px;
+  padding-bottom: 5px;
+  outline: none;
+  transition: all .5s;
+}
+input:focus{
+  border-bottom-color: lightslategrey;
+}
+
+textarea{
+  resize: none;
+}
+.containerForm button{
+  width: 275px;
+  height: 25px;
+  border: 1px solid grey;
+  background-color:#e2e3dd ;
+}
+.containerForm button:active {
+  background-color: #000000;
+  color: whitesmoke;
+}
+.containerInfoContact{
+  background-color: rgb(190, 188, 188);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+.containerInfoContact .infoContact{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }

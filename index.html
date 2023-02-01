@@ -35,7 +35,7 @@
             <a href="#sectionFAQ">FAQ</a>
           </li>
           <li class="liNavbar">
-            <a href="#"> Contacto</a>
+            <a href="#sectionContact"> Contacto</a>
           </li>
           <li class="liNavbar">
             <a href="#"> Iniciar Sesion</a>
@@ -300,9 +300,64 @@
           </div>
         </div>
       </section>
-      <section class="sectionContact">
+      <section class="sectionContact" id="sectionContact">
         <h2 class="titleContact">Contacto</h2>
+        <form>
+          <div class="containerFormTotal">
+            <div class="containerForm">
+              <label for="nombre">Nombre Completo</label>
+              <input type="text" id="nombre" />
+              <label for="correo">Correo</label>
+              <input type="email" id="correo" />
+              <label for="numero">Telefono</label>
+              <input type="text" id="numero" />
+              <label for="consulta">Consulta</label>
+              <textarea
+                name="consulta"
+                cols="35"
+                rows="10"
+                id="consulta"
+              ></textarea>
+              <button>Enviar</button>
+            </div>
+            <div class="containerInfoContact">
+              <h3>
+                Estamos abiertos para cualquier consulta o sugerencia que pueda
+                aportar.
+              </h3>
+              <div class="infoContact">
+                <i class="bi bi-telephone-fill"></i>
+                <p><strong>Telefono:</strong>+59-9-452526</p>
+              </div>
+              <div class="infoContact">
+                <i class="bi bi-envelope-fill"></i>
+                <p><strong>Email:</strong>info123@gmail.com</p>
+              </div>
+              <div class="infoContact">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p>
+                  <strong>Direccion:</strong> Avenida siempreviva 206, Argentina
+                  Cordoba
+                </p>
+              </div>
+              <div class="infoContact">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.099313452318!2d-64.19365052207714!3d-31.41138972020286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987efdb6a4b9%3A0x7de9dc4151fa36b8!2sAv.%20Col%C3%B3n%20629%2C%20X5000EPG%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1675266884617!5m2!1ses-419!2sar"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  width="500px"
+                  height="280px"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </form>
       </section>
+      <footer>
+        
+      </footer>
     </main>
   </body>
 </html>
