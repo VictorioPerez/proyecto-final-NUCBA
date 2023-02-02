@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+  }
+/* PAGINA INCIAR SESION */
+ h1{
+    padding: 50px;
+    color: white;
+    text-align: center;
+ }
+.containerForm{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.containerInput{
+	position:relative;
+	margin-bottom:25px;
+}
+
+.containerInput label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#fff;	
+    pointer-events:none;
+	transition: all 0.5s ease-in-out;
+}
+.containerInput input{ 
+  border:none;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+.containerCheckbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 10px;
+}
+.containerCheckbox label{
+    color: white;
+}
+.containerInput input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #E8E9E3;	
+}
+form a{
+    color: white;
+    position: relative;
+    bottom: 12px;
+    left: 115px;
+}
+.containerButton{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+	color:#fff;
+	background-color:white;
+    border: 0;
+    color: black;
+	padding:10px 20px;
+	margin-top:30px;
+	border-radius:2px;
+	cursor:pointer;
+    border-radius: 5px;
+}
+.containerLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    gap: 20px;
+}
+.containerLinks a{
+    color: white;
+}
+a:hover{
+    color: #555;
+}
+.containerInput input:focus ~ label,
+.containerInput input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+
+
+

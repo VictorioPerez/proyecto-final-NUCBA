@@ -69,9 +69,12 @@ section {
 .listNavbar .liNavbar a:hover {
   color: rgb(156, 150, 150);
 }
-.listNavbar .liNavbar .cartImg {
-  width: 30px;
-  margin-left: 20px;
+.listNavbar .liNavbar i {
+  color: white;
+}
+
+.listNavbar .liNavbar i:hover{
+  color:rgb(156, 150, 150) ;
 }
 /* MAIN SECTION */
 .hero {
@@ -399,4 +402,44 @@ textarea{
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+/* FOOTER */
+footer{
+  background-color: #000;
+  padding-bottom: 20px; 
+}
+footer h4{
+  padding-top: 10px;
+  color:#e2e3dd;
+  font-size: .8rem;
+  text-align: center;
+}
+.containerMedia{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  gap: 10px;
+}
+.containerMedia i{
+  color: white;
+}
+
+/* ---hover----- */
+.containerMedia .youtube:hover{
+  color: #FF4949;
+}
+.containerMedia .twitter:hover{
+  color: #1D9BF0;
+}
+.containerMedia .instagram:hover{
+  color:#F76942;
+}
+.containerMedia .facebook:hover{
+  color:#479EF0;
+}
+footer h6{
+  text-align: center;
+  color: white;
+  padding-top: 10px;
 }
