@@ -434,13 +434,16 @@ footer h6 {
 }
   /* Main section */
  .titulo{
-  padding: 20px 0px;
+  padding: 5px 0px; 
  } 
  .imagenPortada{
   display: none;
  }
  .imagenPortadaMobile{
   display: block;
-  width: 300px;
+  width: 372px;
+ }
+ .containerHero span{
+  display: none;
  }
 }
