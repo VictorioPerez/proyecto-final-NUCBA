@@ -314,6 +314,9 @@ details summary {
   padding: 10px;
   gap: 10px;
 }
+.containerFormTotalResponsive{
+  display: none;
+}
 .containerForm input {
   border: none;
   background-color: #e2e3dd;
@@ -451,6 +454,7 @@ footer h6 {
   display: none;
  }
  /* Section FAQ */
+
  details{
   width: 365px;
  }
@@ -458,4 +462,46 @@ footer h6 {
   width: 370px;
   padding: 5px;
  }
+ /* SECTION CONTACTO */
+.containerFormTotal{
+  display: none;
+}
+.containerFormTotalResponsive{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0px 20px;
+}
+.containerFormTotalResponsive input{
+  border: none;
+  background-color: #e2e3dd;
+  border-bottom: 2px solid black;
+}
+.containerFormTotalResponsive label{
+  padding: 10px 0px;
+}
+.containerFormTotalResponsive button {
+  width: 335px;
+  height: 25px;
+  border: 1px solid grey;
+  background-color: #e2e3dd;
+}
+.containerFormTotalResponsive button:active {
+  background-color: #000000;
+  color: whitesmoke;
+}
+.containerInfoContact{
+  background-color:#e2e3dd ;
+  gap: 10px;
+}
+.containerInfoContact h3{
+  padding: 10px 0px;
+}
+.infoContact{
+  padding: 5px 0px;
+}
+}
+/* TABLET */
+@media (max-width: 992px){
+
 }
