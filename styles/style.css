@@ -441,7 +441,7 @@ footer h6 {
  }
  .imagenPortadaMobile{
   display: block;
-  width: 412px;
+  width: 375px;
   object-fit: cover;
  }
  .containerHero{
@@ -452,7 +452,7 @@ footer h6 {
  }
  /* Section FAQ */
  details{
-  width: 400px;
+  width: 365px;
  }
  details summary{
   width: 370px;
