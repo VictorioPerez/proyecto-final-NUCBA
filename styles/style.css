@@ -441,9 +441,21 @@ footer h6 {
  }
  .imagenPortadaMobile{
   display: block;
-  width: 388px;
+  width: 412px;
+  object-fit: cover;
+ }
+ .containerHero{
+  height: 420px;
  }
  .containerHero span{
   display: none;
+ }
+ /* Section FAQ */
+ details{
+  width: 400px;
+ }
+ details summary{
+  width: 370px;
+  padding: 5px;
  }
 }
