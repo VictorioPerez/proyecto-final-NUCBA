@@ -481,7 +481,7 @@ footer h6 {
   padding: 10px 0px;
 }
 .containerFormTotalResponsive button {
-  width: 355px;
+  width: 353px;
   height: 25px;
   border: 1px solid grey;
   background-color: #e2e3dd;
@@ -499,6 +499,10 @@ footer h6 {
 }
 .infoContact{
   padding: 5px 0px;
+}
+/* FOOTER */
+.containerMedia a{
+  padding: 0px 5px;
 }
 }
 /* TABLET */
