@@ -444,7 +444,7 @@ footer h6 {
  }
  .imagenPortadaMobile{
   display: block;
-  width: 375px;
+  width: 393px;
   object-fit: cover;
  }
  .containerHero{
@@ -505,6 +505,7 @@ footer h6 {
   padding: 0px 5px;
 }
 }
+
 /* TABLET */
 @media (max-width: 992px){
 
