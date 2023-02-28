@@ -466,6 +466,9 @@ footer h6 {
 .containerFormTotal{
   display: none;
 }
+.containerFormTotalResponsiveTablet{
+  display: none;
+}
 .containerFormTotalResponsive{
   display: flex;
   flex-direction: column;
@@ -513,10 +516,18 @@ footer h6 {
   .imagenPortada{
     display: none;
    }
+   .containerFormTotal{
+    display: none;
+   }
+   .containerFormTotalResponsiveTablet{
+    display: none;
+   }
 }
 /* ------------------------------------------------------ */
+/* Aclaracion: Uso otro form para adaptarlo a las medidas de tablet porque si no, se me pisan las medidas y se rompe */
 /* TABLET */
-/* @media screen and (max-width: 992px){
+@media (max-width: 992px){
+  /* seccion HERO */
   .titulo{
     padding-top: 50px !important;
   }
@@ -531,31 +542,34 @@ footer h6 {
     position: relative;
     left: 73%;
   }
-
+/* CONTACTO */
 .containerFormTotal{
   display: none;
 }
 .containerFormTotalResponsive{
+  display: none;
+}
+.containerFormTotalResponsiveTablet{
   display: flex;
   flex-direction: column;
   gap: 5px;
   padding: 0px 80px;
 }
-.containerFormTotalResponsive input{
+.containerFormTotalResponsiveTablet input{
   border: none;
   background-color: #e2e3dd;
   border-bottom: 2px solid black;
 }
-.containerFormTotalResponsive label{
+.containerFormTotalResponsiveTablet label{
   padding: 10px 0px;
 }
-.containerFormTotalResponsive button {
+.containerFormTotalResponsiveTablet button {
   width: 608px;
   height: 25px;
   border: 1px solid grey;
   background-color: #e2e3dd;
 }
-.containerFormTotalResponsive button:active {
+.containerFormTotalResponsiveTablet button:active {
   background-color: #000000;
   color: whitesmoke;
 }
@@ -574,4 +588,3 @@ footer h6 {
   margin: 0px 10px;
 }
 }
- */
