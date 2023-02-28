@@ -505,8 +505,72 @@ footer h6 {
   padding: 0px 5px;
 }
 }
-
+@media (max-width: 375px) {
+  .imagenPortadaMobile{
+    display: block;
+    width: 375px;
+  }
+  .imagenPortada{
+    display: none;
+   }
+}
+/* ------------------------------------------------------ */
 /* TABLET */
 @media (max-width: 992px){
-
+  .titulo{
+    padding-top: 50px !important;
+  }
+  .listNavbar .liNavbar{
+    margin: 0px 13px;
+  }
+  .imagenPortada{
+    height: 280px;
+    padding-top: 30px;
+  }
+  .containerHero span{
+    position: relative;
+    left: 73%;
+  }
+  /* SECTION CONTACTO */
+.containerFormTotal{
+  display: none;
+}
+.containerFormTotalResponsive{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0px 80px;
+}
+.containerFormTotalResponsive input{
+  border: none;
+  background-color: #e2e3dd;
+  border-bottom: 2px solid black;
+}
+.containerFormTotalResponsive label{
+  padding: 10px 0px;
+}
+.containerFormTotalResponsive button {
+  width: 608px;
+  height: 25px;
+  border: 1px solid grey;
+  background-color: #e2e3dd;
+}
+.containerFormTotalResponsive button:active {
+  background-color: #000000;
+  color: whitesmoke;
+}
+.containerInfoContact{
+  background-color:#e2e3dd ;
+  gap: 10px;
+}
+.containerInfoContact h3{
+  padding: 10px 0px;
+}
+.infoContact{
+  padding: 5px 0px;
+}
+/* FOOTER */
+.containerMedia a{
+  margin: 0px 10px;
+}
 }
