@@ -1,11 +1,11 @@
 @media (max-width: 480px) {
-    form a {
-      bottom: 10px;
-      left: 40px;
-    }
-    .containerCheckbox{
-      position: relative;
-      top: 0px;
-      left: 0px;
-    }
+  form a {
+    bottom: 10px;
+    left: 56px;
   }
+  .containerCheckbox{
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+}
