@@ -297,32 +297,34 @@ details summary {
 .titleContact {
   text-align: center;
 }
-
-.containerFormTotal {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid black;
-  margin: 0px 250px;
-  border-radius: 5px;
-  margin-top: 30px;
-}
 .containerForm {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-
-  padding: 10px;
+  padding: 10px 70px;
   gap: 10px;
+  background-color: rgb(190, 188, 188);
+  margin: 20px 150px;
+  padding-top: 20px;
 }
-.containerFormTotalResponsive {
-  display: none;
+.containerForm form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.containerForm form label{
+ padding: 3px;
+}
+.containerForm form textarea{ 
+  resize: none;
+  margin-top: 5px;
 }
 .containerForm input {
   border: none;
-  background-color: #e2e3dd;
+  background-color: rgb(190, 188, 188);
   border-bottom: 2px solid black;
-  width: 275px;
-  padding-bottom: 5px;
+  width: 370px;
+  padding-bottom: 8px;
   outline: none;
   transition: all 0.5s;
 }
@@ -330,13 +332,11 @@ input:focus {
   border-bottom-color: lightslategrey;
 }
 
-textarea {
-  resize: none;
-}
 .containerForm button {
-  width: 275px;
-  height: 25px;
+  width: 373px;
+  height: 35px;
   border: 1px solid grey;
+  margin-top: 5px;
   background-color: #e2e3dd;
 }
 .containerForm button:active {
@@ -344,12 +344,9 @@ textarea {
   color: whitesmoke;
 }
 .containerInfoContact {
-  background-color: rgb(190, 188, 188);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 30px 10px;
   gap: 10px;
 }
 .containerInfoContact .infoContact {
@@ -398,203 +395,3 @@ footer h6 {
   padding-top: 10px;
 }
 
-/* RESPONSIVE MOBILE - TABLET */
-/* Mobile */
-@media (max-width: 420px) {
-  .navbar {
-    z-index: 3;
-  }
-  .navbarIcon {
-    width: 180px;
-  }
-  .listNavbar {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 37px;
-    left: 0px;
-    background-color: #000;
-    z-index: 2;
-    padding: 0px 140px;
-    align-items: baseline;
-  }
-  .liNavbar {
-    margin: 5px 0px;
-  }
-  #menu-toggle {
-    display: none;
-  }
-  .iconMenu {
-    color: white;
-    cursor: pointer;
-  }
-  .menuLabel {
-    display: flex;
-    padding-right: 10px;
-  }
-  #menu-toggle:checked + .listNavbar {
-    display: flex;
-  }
-  /* Main section */
-  .titulo {
-    padding: 5px 0px;
-  }
-  .imagenPortada {
-    display: none;
-  }
-  .imagenPortadaMobile {
-    display: block;
-    width: 393px;
-    object-fit: cover;
-  }
-  .containerHero {
-    height: 420px;
-  }
-  .containerHero span {
-    display: none;
-  }
-  /* Section FAQ */
-
-  details {
-    width: 365px;
-  }
-  details summary {
-    width: 370px;
-    padding: 5px;
-  }
-  /* SECTION CONTACTO */
-  .containerFormTotal {
-    display: none;
-  }
-  .containerFormTotalResponsiveTablet {
-    display: none;
-  }
-  .containerFormTotalResponsive {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 0px 20px;
-  }
-  .containerFormTotalResponsive input {
-    border: none;
-    background-color: #e2e3dd;
-    border-bottom: 2px solid black;
-  }
-  .containerFormTotalResponsive label {
-    padding: 10px 0px;
-  }
-  .containerFormTotalResponsive button {
-    width: 353px;
-    height: 25px;
-    border: 1px solid grey;
-    background-color: #e2e3dd;
-  }
-  .containerFormTotalResponsive button:active {
-    background-color: #000000;
-    color: whitesmoke;
-  }
-  .containerInfoContact {
-    background-color: #e2e3dd;
-    gap: 10px;
-  }
-  .containerInfoContact h3 {
-    padding: 10px 0px;
-  }
-  .infoContact {
-    padding: 5px 0px;
-  }
-  /* FOOTER */
-  .containerMedia a {
-    padding: 0px 5px;
-  }
-}
-/* @media (max-width: 375px) {
-  .imagenPortadaMobile {
-    display: block;
-    width: 375px;
-  }
-  .imagenPortada {
-    display: none;
-  }
-  .containerFormTotal {
-    display: none;
-  }
-  .containerFormTotalResponsive {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 0px 20px;
-  }
-  .containerFormTotalResponsiveTablet {
-    display: none;
-  }
-} */
-/* ------------------------------------------------------ */
-/* TABLET */
-@media (max-width: 992px) {
-  /* seccion HERO */
-/*   .titulo {
-    padding-top: 50px !important;
-  }
-  .listNavbar .liNavbar {
-    margin: 0px 13px;
-  }
-  .imagenPortada {
-    height: 280px;
-    padding-top: 30px;
-  }
-  .containerHero {
-    height: 400px;
-  }
-  .containerHero span {
-    position: relative;
-    left: 73%;
-  } */
-  /* CONTACTO */
-/*    .containerFormTotal {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 0px 100px;
-  } */
-  /* .containerFormTotalResponsive {
-    display: none;
-  } */
-/*   .containerFormTotalResponsiveTablet {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 0px 100px;
-  } */
-  /*  input{
-  border: none;
-  background-color: #e2e3dd;
-  border-bottom: 2px solid black;
-}
- label{
-  padding: 10px 0px;
-} */
-  /*  button {
-  width: 608px;
-  height: 25px;
-  border: 1px solid grey;
-  background-color: #e2e3dd;
-}
- button:active {
-  background-color: #000000;
-  color: whitesmoke;
-} */
-  /* .containerInfoContact{
-  background-color:#e2e3dd ;
-  gap: 10px;
-}
-.containerInfoContact h3{
-  padding: 10px 0px;
-}
-.infoContact{
-  padding: 5px 0px;
-}
-.containerMedia a{
-  margin: 0px 10px;
-} */
-}

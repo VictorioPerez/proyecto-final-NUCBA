@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- LINK CSS -->
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/styleQuery.css" />
     <!-- FAVICON -->
     <link rel="icon" href="images/favicon1.png" type="image/x-icon" />
     <!-- BOOTSTRAP ICONS -->
@@ -30,9 +31,9 @@
           class="navbarIcon"
         />
         <label for="menu-toggle" class="menuLabel">
-          <i class="bi bi-list  fa-2x iconMenu"></i>
+          <i class="bi bi-list fa-2x iconMenu"></i>
         </label>
-        <input type="checkbox" id="menu-toggle"/>
+        <input type="checkbox" id="menu-toggle" />
         <ul class="listNavbar">
           <li class="liNavbar">
             <a href="#"> Inicio</a>
@@ -68,7 +69,11 @@
             alt="cartel de perfume"
             class="imagenPortada"
           />
-          <img src="images/calvinKleinMovile.jpg" alt="cartel de perfume" class="imagenPortadaMobile">
+          <img
+            src="images/calvinKleinMovile.jpg"
+            alt="cartel de perfume"
+            class="imagenPortadaMobile"
+          />
           <span>
             <a href="#">Descubre</a>
           </span>
@@ -249,7 +254,7 @@
           <!---------------------------------------------------------------------------->
         </div>
       </section>
-    <section class="sectionFAQ" id="sectionFAQ">
+      <section class="sectionFAQ" id="sectionFAQ">
         <h2 class="titleFAQ">Preguntas frecuentes</h2>
         <div class="containerFAQ">
           <div class="containerPreguntas">
@@ -310,156 +315,58 @@
           </div>
         </div>
       </section>
-     <section class="sectionContact" id="sectionContact">
+      <section class="sectionContact" id="sectionContact">
         <h2 class="titleContact">Contacto</h2>
-        <form>
-          <div class="containerFormTotal"> <!-- form para pc -->
-            <div class="containerForm">
-              <label for="nombre">Nombre Completo</label>
-              <input type="text" id="nombre" />
-              <label for="correo">Correo</label>
-              <input type="email" id="correo" />
-              <label for="numero">Telefono</label>
-              <input type="text" id="numero" />
-              <label for="consulta">Consulta</label>
-              <textarea
-                name="consulta"
-                cols="35"
-                rows="10"
-                id="consulta"
-              ></textarea>
-              <button>Enviar</button>
+        <div class="containerForm">
+          <form>
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" />
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" />
+            <label for="numero">Telefono:</label>
+            <input type="text" id="numero" />
+            <label for="consulta">Consulta:</label>
+            <textarea
+              name="consulta"
+              cols="48"
+              rows="15"
+              id="consulta"
+            ></textarea>
+            <button>Enviar</button>
+          </form>
+          <div class="containerInfoContact">
+            <h3>
+              Estamos abiertos para cualquier consulta o sugerencia que pueda
+              aportar.
+            </h3>
+            <div class="infoContact">
+              <i class="bi bi-telephone-fill"></i>
+              <p><strong>Telefono:</strong>+59-9-452526</p>
             </div>
-            <div class="containerInfoContact">
-              <h3>
-                Estamos abiertos para cualquier consulta o sugerencia que pueda
-                aportar.
-              </h3>
-              <div class="infoContact">
-                <i class="bi bi-telephone-fill"></i>
-                <p><strong>Telefono:</strong>+59-9-452526</p>
-              </div>
-              <div class="infoContact">
-                <i class="bi bi-envelope-fill"></i>
-                <p><strong>Email:</strong>info123@gmail.com</p>
-              </div>
-              <div class="infoContact">
-                <i class="bi bi-geo-alt-fill"></i>
-                <p>
-                  <strong>Direccion:</strong> Avenida siempreviva 206, Argentina
-                  Cordoba
-                </p>
-              </div>
-              <div class="infoContact">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.099313452318!2d-64.19365052207714!3d-31.41138972020286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987efdb6a4b9%3A0x7de9dc4151fa36b8!2sAv.%20Col%C3%B3n%20629%2C%20X5000EPG%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1675266884617!5m2!1ses-419!2sar"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  width="500px"
-                  height="280px"
-                ></iframe>
-              </div>
+            <div class="infoContact">
+              <i class="bi bi-envelope-fill"></i>
+              <p><strong>Email:</strong>info123@gmail.com</p>
+            </div>
+            <div class="infoContact">
+              <i class="bi bi-geo-alt-fill"></i>
+              <p>
+                <strong>Direccion:</strong> Avenida siempreviva 206, Argentina
+                Cordoba
+              </p>
+            </div>
+            <div class="infoContact">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.099313452318!2d-64.19365052207714!3d-31.41138972020286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987efdb6a4b9%3A0x7de9dc4151fa36b8!2sAv.%20Col%C3%B3n%20629%2C%20X5000EPG%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1675266884617!5m2!1ses-419!2sar"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                width="500px"
+                height="315px"
+              ></iframe>
             </div>
           </div>
-          <div class="containerFormTotalResponsive"> <!-- form para mobile -->
-            <label for="nombre">Nombre Completo</label>
-              <input type="text" id="nombre" />
-              <label for="correo">Correo</label>
-              <input type="email" id="correo" />
-              <label for="numero">Telefono</label>
-              <input type="text" id="numero" />
-              <label for="consulta">Consulta</label>
-              <textarea
-                name="consulta"
-                cols="35"
-                rows="10"
-                id="consulta"
-              ></textarea>
-              <button>Enviar</button>
-              <div class="containerInfoContact">
-                <h3>
-                  Estamos abiertos para cualquier consulta o sugerencia que pueda
-                  aportar.
-                </h3>
-                <div class="infoContact">
-                  <i class="bi bi-telephone-fill"></i>
-                  <p><strong>Telefono:</strong>+59-9-452526</p>
-                </div>
-                <div class="infoContact">
-                  <i class="bi bi-envelope-fill"></i>
-                  <p><strong>Email:</strong>info123@gmail.com</p>
-                </div>
-                <div class="infoContact">
-                  <i class="bi bi-geo-alt-fill"></i>
-                  <p>
-                    <strong>Direccion:</strong> Avenida siempreviva 206, Argentina
-                    Cordoba
-                  </p>
-                </div>
-                <div class="infoContact">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.099313452318!2d-64.19365052207714!3d-31.41138972020286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987efdb6a4b9%3A0x7de9dc4151fa36b8!2sAv.%20Col%C3%B3n%20629%2C%20X5000EPG%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1675266884617!5m2!1ses-419!2sar"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                    width="700px"
-                    height="280px"
-                  ></iframe>
-                </div>
-              </div>
-          </div>
-          <div class="containerFormTotalResponsiveTablet"> <!-- form para tablet -->
-            <label for="nombre">Nombre Completo</label>
-              <input type="text" id="nombre" />
-              <label for="correo">Correo</label>
-              <input type="email" id="correo" />
-              <label for="numero">Telefono</label>
-              <input type="text" id="numero" />
-              <label for="consulta">Consulta</label>
-              <textarea
-                name="consulta"
-                cols="35"
-                rows="10"
-                id="consulta"
-              ></textarea>
-              <button>Enviar</button>
-              <div class="containerInfoContact">
-                <h3>
-                  Estamos abiertos para cualquier consulta o sugerencia que pueda
-                  aportar.
-                </h3>
-                <div class="infoContact">
-                  <i class="bi bi-telephone-fill"></i>
-                  <p><strong>Telefono:</strong>+59-9-452526</p>
-                </div>
-                <div class="infoContact">
-                  <i class="bi bi-envelope-fill"></i>
-                  <p><strong>Email:</strong>info123@gmail.com</p>
-                </div>
-                <div class="infoContact">
-                  <i class="bi bi-geo-alt-fill"></i>
-                  <p>
-                    <strong>Direccion:</strong> Avenida siempreviva 206, Argentina
-                    Cordoba
-                  </p>
-                </div>
-                <div class="infoContact">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.099313452318!2d-64.19365052207714!3d-31.41138972020286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987efdb6a4b9%3A0x7de9dc4151fa36b8!2sAv.%20Col%C3%B3n%20629%2C%20X5000EPG%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1675266884617!5m2!1ses-419!2sar"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                    width="700px"
-                    height="280px"
-                  ></iframe>
-                </div>
-              </div>
-          </div>
-        </form>
+        </div>
       </section>
       <footer>
         <h4>Seguinos en nuestras redes para no perderte de nada</h4>

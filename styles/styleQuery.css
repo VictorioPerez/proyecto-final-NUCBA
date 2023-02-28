@@ -1,0 +1,124 @@
+/* RESPONSIVE MOBILE - TABLET */
+/* Mobile */
+@media (max-width: 480px) {
+  .navbar {
+    z-index: 3;
+  }
+  .navbarIcon {
+    width: 180px;
+  }
+  .listNavbar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 37px;
+    left: 0px;
+    background-color: #000;
+    z-index: 2;
+    padding: 0px 140px;
+    align-items: baseline;
+  }
+  .liNavbar {
+    margin: 5px 0px;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  .iconMenu {
+    color: white;
+    cursor: pointer;
+  }
+  .menuLabel {
+    display: flex;
+    padding-right: 10px;
+  }
+  #menu-toggle:checked + .listNavbar {
+    display: flex;
+  }
+  /* Main section */
+  .titulo {
+    padding: 5px 0px;
+  }
+  .imagenPortada {
+    display: none;
+  }
+  .imagenPortadaMobile {
+    display: block;
+    width: 393px;
+    object-fit: cover;
+  }
+  .containerHero {
+    height: 420px;
+  }
+  .containerHero span {
+    display: none;
+  }
+  /* Section FAQ */
+
+  details {
+    width: 365px;
+  }
+  details summary {
+    width: 370px;
+    padding: 5px;
+  }
+  /* SECTION CONTACTO */
+  .sectionContact{
+    padding-top: 10px;
+    height: 1084px;
+    background-color: rgb(190, 188, 188);
+  }
+  .titleContact{
+    margin-top:5px ;
+  }
+  .containerForm {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+    padding: 20px 30px;
+  }
+  .containerInfoContact{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+  }
+  .containerInfoContact h3{
+    margin: 10px 0px;
+  }
+  .containerInfoContact div{
+    margin: 3px;
+  }
+  .containerInfoContact iframe{
+    width: 360px;
+  }
+  /* FOOTER */
+  .containerMedia a {
+    padding: 0px 5px;
+  }
+}
+/* ------------------------------------------------------ */
+/* TABLET */
+@media (max-width: 700px) {
+  /* seccion HERO */
+  .titulo {
+    padding-top: 50px !important;
+  }
+  .listNavbar .liNavbar {
+    margin: 0px 13px;
+  }
+  .imagenPortada {
+    height: 280px;
+    padding-top: 30px;
+  }
+  .containerHero {
+    height: 400px;
+  }
+  .containerHero span {
+    position: relative;
+    left: 73%;
+  }
+  /* CONTACTO */
+  .containerFormTotal {
+    margin: 20px 0px;
+  }
+}
