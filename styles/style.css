@@ -400,7 +400,7 @@ footer h6 {
 
 /* RESPONSIVE MOBILE - TABLET */
 /* Mobile */
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .navbar {
     z-index: 3;
   }
@@ -516,7 +516,7 @@ footer h6 {
 }
 /* ------------------------------------------------------ */
 /* TABLET */
-@media (max-width: 998px){
+@media screen and (max-width: 1200px){
   .titulo{
     padding-top: 50px !important;
   }
