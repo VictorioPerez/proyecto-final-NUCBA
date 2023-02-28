@@ -1,4 +1,30 @@
 /* RESPONSIVE MOBILE - TABLET */
+/* TABLET */
+@media (max-width: 992px) {
+  /* seccion HERO */
+  .titulo {
+    padding-top: 50px !important;
+  }
+  .listNavbar .liNavbar {
+    margin: 0px 13px;
+  }
+  .imagenPortada {
+    height: 280px;
+    padding-top: 30px;
+  }
+  .containerHero {
+    height: 400px;
+  }
+  .containerHero span {
+    position: relative;
+    left: 73%;
+  }
+  /* CONTACTO */
+  .containerForm {
+    margin: 20px 0px;
+    flex-direction: row;
+  }
+}
 /* Mobile */
 @media (max-width: 480px) {
   .navbar {
@@ -105,32 +131,5 @@
   }
   .containerMedia a {
     padding: 0px 5px;
-  }
-}
-/* ------------------------------------------------------ */
-/* TABLET */
-@media (max-width: 992px) {
-  /* seccion HERO */
-  .titulo {
-    padding-top: 50px !important;
-  }
-  .listNavbar .liNavbar {
-    margin: 0px 13px;
-  }
-  .imagenPortada {
-    height: 280px;
-    padding-top: 30px;
-  }
-  .containerHero {
-    height: 400px;
-  }
-  .containerHero span {
-    position: relative;
-    left: 73%;
-  }
-  /* CONTACTO */
-  .containerForm {
-    margin: 20px 0px;
-    flex-direction: row;
   }
 }
