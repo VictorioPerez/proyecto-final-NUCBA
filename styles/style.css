@@ -481,7 +481,7 @@ footer h6 {
   padding: 10px 0px;
 }
 .containerFormTotalResponsive button {
-  width: 233px !important;
+  width: 353px;
   height: 25px;
   border: 1px solid grey;
   background-color: #e2e3dd;
@@ -516,7 +516,7 @@ footer h6 {
 }
 /* ------------------------------------------------------ */
 /* TABLET */
-@media screen and (max-width: 992px){
+/* @media screen and (max-width: 992px){
   .titulo{
     padding-top: 50px !important;
   }
@@ -574,3 +574,4 @@ footer h6 {
   margin: 0px 10px;
 }
 }
+ */
