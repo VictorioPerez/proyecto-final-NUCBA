@@ -516,7 +516,7 @@ footer h6 {
 }
 /* ------------------------------------------------------ */
 /* TABLET */
-@media (max-width: 992px){
+@media (min-width: 992px){
   .titulo{
     padding-top: 50px !important;
   }
@@ -531,7 +531,7 @@ footer h6 {
     position: relative;
     left: 73%;
   }
-  /* SECTION CONTACTO */
+
 .containerFormTotal{
   display: none;
 }
@@ -569,7 +569,7 @@ footer h6 {
 .infoContact{
   padding: 5px 0px;
 }
-/* FOOTER */
+
 .containerMedia a{
   margin: 0px 10px;
 }
