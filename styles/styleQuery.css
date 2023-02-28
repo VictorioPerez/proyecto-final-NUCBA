@@ -76,6 +76,13 @@
     flex-direction: column;
     margin: 0px 0px;
     padding: 20px 30px;
+    align-items: start;
+  }
+  .containerForm form input{
+   width: 350px; 
+  }
+  .containerForm button{
+    width: 356px;
   }
   .containerInfoContact{
     display: flex;
@@ -85,11 +92,12 @@
   .containerInfoContact h3{
     margin: 10px 0px;
   }
+
   .containerInfoContact div{
     margin: 3px;
   }
   .containerInfoContact iframe{
-    width: 360px;
+    width: 330px;
   }
   /* FOOTER */
   .containerMedia a {
