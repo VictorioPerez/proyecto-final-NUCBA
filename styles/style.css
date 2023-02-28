@@ -516,7 +516,7 @@ footer h6 {
 }
 /* ------------------------------------------------------ */
 /* TABLET */
-@media (min-width: 992px){
+@media (max-width: 998px){
   .titulo{
     padding-top: 50px !important;
   }
