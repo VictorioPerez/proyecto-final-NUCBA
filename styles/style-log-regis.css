@@ -112,16 +112,6 @@ a:hover{
 	
 }
 
-/* REESPONSIVE */
-@media (max-width: 992px){
-  .containerCheckbox input{
-    position: relative;
-    top: 5px;
-    left: 10px;
-  }
-  .containerLinks a{
-    padding: 0px 10px;
-  }
-}
+
 
 
