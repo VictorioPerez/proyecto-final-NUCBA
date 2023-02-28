@@ -293,9 +293,11 @@ details summary {
 /* SECTION CONTACT */
 .sectionContact {
   padding-bottom: 20px;
+  background-color: rgb(190, 188, 188);
 }
 .titleContact {
   text-align: center;
+  padding-top: 25px;
 }
 .containerForm {
   display: flex;
